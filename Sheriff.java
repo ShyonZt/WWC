@@ -7,8 +7,8 @@ class Sheriff extends Hero {
     Sheriff(String nome, int hp, int atk, int def, int numWhiskey, String rota) {
         super(nome, hp, atk, def, numWhiskey, "src\\imgs\\sheriff.png");
 
-        setbaseHp(13);
-        setbaseAtk(2);
+        setbaseHp(21);
+        setbaseAtk(7);
         setbaseDef(6);
     }
 

@@ -7,9 +7,9 @@ class Outlaw extends Hero {
     public Outlaw(String nome, int hp, int atk, int def, int numWhiskey, String rota){
         super(nome, hp, atk, def, numWhiskey, "src\\imgs\\outlaw.PNG");
 
-        setbaseHp(7);
-        setbaseAtk(5);
-        setbaseDef(0);
+        setbaseHp(12);
+        setbaseAtk(12);
+        setbaseDef(2);
       }
 
     // skill

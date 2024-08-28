@@ -7,9 +7,9 @@ class Gunslinger extends Hero {
     public Gunslinger(String nome, int hp, int atk, int def, int numWhiskey, String rota){
         super(nome, hp,atk,def,numWhiskey,"src\\imgs\\gunslinger.png");
 
-        setbaseHp(10);
-        setbaseAtk(3);
-        setbaseDef(2);
+        setbaseHp(17);
+        setbaseAtk(7);
+        setbaseDef(3);
     }
 
     // Aumenta em 50% o proximo ataque

@@ -346,7 +346,7 @@ public class JanelaCombate extends JFrame {
         switch (recompensaAleatoria) {
             case 0:
                 heroi.setHp(heroi.getHp() + 15);
-                JOptionPane.showMessageDialog(this, "Voce venceu a batalha e recebeu +5 pontos de Vida");
+                JOptionPane.showMessageDialog(this, "Voce venceu a batalha e recebeu +15 pontos de Vida");
                 break;
             case 1:
                 heroi.setAtk(heroi.getAtk() + 1);

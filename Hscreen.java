@@ -139,7 +139,7 @@ class Hscreen extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent action) {
         if (action.getSource() == Bgunslinger) {
 
-            Gunslinger gunslinger = new Gunslinger("Gunslinger", 12, 7, 3, 0, "src\\imgs\\gunslinger.png");
+            Gunslinger gunslinger = new Gunslinger("Gunslinger", 17, 7, 3, 0, "src\\imgs\\gunslinger.png");
             ChScreen chScreen = new ChScreen(gunslinger, escolhaModoJogo);
             chScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             dispose();
@@ -147,7 +147,7 @@ class Hscreen extends JFrame implements ActionListener {
         }
         if (action.getSource() == Boutlaw) {
 
-            Outlaw outlaw = new Outlaw("Outlaw", 7, 12, 2, 0, "src\\imgs\\outlaw.PNG");
+            Outlaw outlaw = new Outlaw("Outlaw", 12, 12, 2, 0, "src\\imgs\\outlaw.PNG");
             ChScreen chScreen = new ChScreen(outlaw, escolhaModoJogo);
             chScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             dispose();
@@ -155,7 +155,7 @@ class Hscreen extends JFrame implements ActionListener {
         }
         if (action.getSource() == Bsheriff) {
 
-            Sheriff sheriff = new Sheriff("Sheriff", 16, 6, 8, 0,"src\\imgs\\sheriff.png");
+            Sheriff sheriff = new Sheriff("Sheriff", 21, 7, 6, 0,"src\\imgs\\sheriff.png");
             ChScreen chScreen = new ChScreen(sheriff, escolhaModoJogo);
             chScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             dispose();
